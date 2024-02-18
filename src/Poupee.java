@@ -5,8 +5,8 @@ abstract public class Poupee {
 
 
     // constructeur
-    public Poupee(int taillep){
-        this.taille= taillep;
+    public Poupee(int taille){
+        this.taille= taille;
         this.ouverte = false;
     }
 
