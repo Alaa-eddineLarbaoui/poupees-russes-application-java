@@ -5,24 +5,27 @@ abstract public class Poupee {
 
 
     // constructeur
-    Poupee(int tailleP){
-        this.taille= tailleP;
+    public Poupee(int taillep){
+        this.taille= taillep;
         this.ouverte = false;
     }
 
-    // les getter et setter
+    // les getter et setter)
     public int getTaille() {
+
         return taille;
     }
 
     public void setTaille(int taille) {
+
         this.taille = taille;
     }
 
-    public boolean isOuverte() {return ouverte;
-    }
+    public boolean isOuverte() {
+        return ouverte;}
 
     public void setOuverte(boolean ouverte) {
+
         this.ouverte = ouverte;
     }
 

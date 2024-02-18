@@ -4,8 +4,8 @@ public class PoupeeRusse extends Poupee{
 
     Poupee poupee;
 
-    PoupeeRusse(int tailleP) {
-        super(tailleP);
+    public PoupeeRusse(int taille) {
+        super(taille);
         poupee = null;
     }
 
