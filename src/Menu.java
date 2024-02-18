@@ -23,19 +23,19 @@ public class Menu {
             System.out.println("|  4: Sort la poupée d'une autre poupée                                     |");
             System.out.println("|  5: Quitter application                                                   |");
             System.out.println("|===========================================================================|");
+            System.out.println();
 
-//            System.out.println("p1 : Size = " + p1.getTaille());
-//            System.out.println("p2 : Size = " + p2.getTaille());
-//            System.out.println("p3 : Size = " + p3.getTaille());
 
             System.out.println("Enter votre choix: ");
 
             choix = sc.nextInt();
             switch (choix){
                 case 1:
-                    System.out.println("p1 : Taille = " + p1.getTaille());
-                    System.out.println("p2 : Taille = " + p2.getTaille());
-                    System.out.println("p3 : Taille = " + p3.getTaille());
+                    System.out.println("|====================|");
+                    System.out.println("| p1 : Taille = "  + p1.getTaille());
+                    System.out.println("| p2 : Taille = "  + p2.getTaille());
+                    System.out.println("| p3 : Taille = "  + p3.getTaille());
+                    System.out.println("|====================|");
                     System.out.println();
                     System.out.print("Entrer la taille de la poupée à ouvrir: ");
                     taille = sc.nextInt();
@@ -148,9 +148,6 @@ public class Menu {
             }
         }while (choix != 5);
     }
-
-
-
 }
 
 
